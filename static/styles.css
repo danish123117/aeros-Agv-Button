@@ -1,0 +1,47 @@
+/* Basic page setup */
+body {
+    background-color: #f1f5f9; /* Light slate background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Button wrapper */
+  .controls {
+    text-align: center;
+  }
+  
+  /* Styling the Dispatch button */
+  #dispatch {
+    background-color: #0ea5e9; /* Sky-500 */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(14, 165, 233, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  #dispatch:hover {
+    background-color: #0284c7; /* Sky-600 */
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(2, 132, 199, 0.4);
+  }
+  
+  #dispatch:active {
+    background-color: #0369a1; /* Sky-700 */
+    transform: translateY(0);
+    box-shadow: 0 6px 10px rgba(3, 105, 161, 0.4);
+  }
+  
