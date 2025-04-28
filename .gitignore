@@ -50,7 +50,6 @@ instance/
 
 # Docker
 docker-compose.override.yml
-.dockerignore
 
 # System files
 Thumbs.db

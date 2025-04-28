@@ -23,9 +23,9 @@ body {
   #dispatch {
     background-color: #0ea5e9; /* Sky-500 */
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased font size */
     font-weight: 600;
-    padding: 0.8rem 2.5rem;
+    padding: 2rem 5rem; /* Increased padding */
     border: none;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(14, 165, 233, 0.3);
@@ -44,4 +44,3 @@ body {
     transform: translateY(0);
     box-shadow: 0 6px 10px rgba(3, 105, 161, 0.4);
   }
-  
