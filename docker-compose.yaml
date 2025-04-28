@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  agv-button:
+    image: danny0117/aeros-agvbutton:1.0.0
+    container_name: agv-button
+    environment:
+      - AGV_IP=192.168.1.233  
+      - AGV_PORT=8000        
+    ports:
+      - "8001:8001"  
+    expose:
+      - "8001"            
+    restart: unless-stopped
